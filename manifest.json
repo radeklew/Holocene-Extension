@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Holocene",
+    "version": "1.0"
+
+    "description": "Appends the Holocene Era to all dates."
+
+    "icons": {
+	"48": "icons/HE.png"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": [*],
+	    "js": ["holocene.js"]
+	}
+    ]
+    
+}
